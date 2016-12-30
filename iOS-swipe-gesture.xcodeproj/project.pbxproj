@@ -1,0 +1,537 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2B24380E1E162F1C00310523 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B24380D1E162F1C00310523 /* AppDelegate.swift */; };
+		2B2438101E162F1C00310523 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B24380F1E162F1C00310523 /* ViewController.swift */; };
+		2B2438131E162F1C00310523 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B2438111E162F1C00310523 /* Main.storyboard */; };
+		2B2438151E162F1C00310523 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B2438141E162F1C00310523 /* Assets.xcassets */; };
+		2B2438181E162F1C00310523 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B2438161E162F1C00310523 /* LaunchScreen.storyboard */; };
+		2B2438231E162F1C00310523 /* iOS_swipe_gestureTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B2438221E162F1C00310523 /* iOS_swipe_gestureTests.swift */; };
+		2B24382E1E162F1C00310523 /* iOS_swipe_gestureUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B24382D1E162F1C00310523 /* iOS_swipe_gestureUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2B24381F1E162F1C00310523 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2B2438021E162F1C00310523 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2B2438091E162F1C00310523;
+			remoteInfo = "iOS-swipe-gesture";
+		};
+		2B24382A1E162F1C00310523 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2B2438021E162F1C00310523 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2B2438091E162F1C00310523;
+			remoteInfo = "iOS-swipe-gesture";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2B24380A1E162F1C00310523 /* iOS-swipe-gesture.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS-swipe-gesture.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B24380D1E162F1C00310523 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2B24380F1E162F1C00310523 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2B2438121E162F1C00310523 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2B2438141E162F1C00310523 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2B2438171E162F1C00310523 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2B2438191E162F1C00310523 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2B24381E1E162F1C00310523 /* iOS-swipe-gestureTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iOS-swipe-gestureTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B2438221E162F1C00310523 /* iOS_swipe_gestureTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS_swipe_gestureTests.swift; sourceTree = "<group>"; };
+		2B2438241E162F1C00310523 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2B2438291E162F1C00310523 /* iOS-swipe-gestureUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iOS-swipe-gestureUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B24382D1E162F1C00310523 /* iOS_swipe_gestureUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS_swipe_gestureUITests.swift; sourceTree = "<group>"; };
+		2B24382F1E162F1C00310523 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2B2438071E162F1C00310523 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B24381B1E162F1C00310523 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B2438261E162F1C00310523 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2B2438011E162F1C00310523 = {
+			isa = PBXGroup;
+			children = (
+				2B24380C1E162F1C00310523 /* iOS-swipe-gesture */,
+				2B2438211E162F1C00310523 /* iOS-swipe-gestureTests */,
+				2B24382C1E162F1C00310523 /* iOS-swipe-gestureUITests */,
+				2B24380B1E162F1C00310523 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2B24380B1E162F1C00310523 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2B24380A1E162F1C00310523 /* iOS-swipe-gesture.app */,
+				2B24381E1E162F1C00310523 /* iOS-swipe-gestureTests.xctest */,
+				2B2438291E162F1C00310523 /* iOS-swipe-gestureUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2B24380C1E162F1C00310523 /* iOS-swipe-gesture */ = {
+			isa = PBXGroup;
+			children = (
+				2B24380D1E162F1C00310523 /* AppDelegate.swift */,
+				2B24380F1E162F1C00310523 /* ViewController.swift */,
+				2B2438111E162F1C00310523 /* Main.storyboard */,
+				2B2438141E162F1C00310523 /* Assets.xcassets */,
+				2B2438161E162F1C00310523 /* LaunchScreen.storyboard */,
+				2B2438191E162F1C00310523 /* Info.plist */,
+			);
+			path = "iOS-swipe-gesture";
+			sourceTree = "<group>";
+		};
+		2B2438211E162F1C00310523 /* iOS-swipe-gestureTests */ = {
+			isa = PBXGroup;
+			children = (
+				2B2438221E162F1C00310523 /* iOS_swipe_gestureTests.swift */,
+				2B2438241E162F1C00310523 /* Info.plist */,
+			);
+			path = "iOS-swipe-gestureTests";
+			sourceTree = "<group>";
+		};
+		2B24382C1E162F1C00310523 /* iOS-swipe-gestureUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2B24382D1E162F1C00310523 /* iOS_swipe_gestureUITests.swift */,
+				2B24382F1E162F1C00310523 /* Info.plist */,
+			);
+			path = "iOS-swipe-gestureUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2B2438091E162F1C00310523 /* iOS-swipe-gesture */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B2438321E162F1C00310523 /* Build configuration list for PBXNativeTarget "iOS-swipe-gesture" */;
+			buildPhases = (
+				2B2438061E162F1C00310523 /* Sources */,
+				2B2438071E162F1C00310523 /* Frameworks */,
+				2B2438081E162F1C00310523 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "iOS-swipe-gesture";
+			productName = "iOS-swipe-gesture";
+			productReference = 2B24380A1E162F1C00310523 /* iOS-swipe-gesture.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2B24381D1E162F1C00310523 /* iOS-swipe-gestureTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B2438351E162F1C00310523 /* Build configuration list for PBXNativeTarget "iOS-swipe-gestureTests" */;
+			buildPhases = (
+				2B24381A1E162F1C00310523 /* Sources */,
+				2B24381B1E162F1C00310523 /* Frameworks */,
+				2B24381C1E162F1C00310523 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2B2438201E162F1C00310523 /* PBXTargetDependency */,
+			);
+			name = "iOS-swipe-gestureTests";
+			productName = "iOS-swipe-gestureTests";
+			productReference = 2B24381E1E162F1C00310523 /* iOS-swipe-gestureTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2B2438281E162F1C00310523 /* iOS-swipe-gestureUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B2438381E162F1C00310523 /* Build configuration list for PBXNativeTarget "iOS-swipe-gestureUITests" */;
+			buildPhases = (
+				2B2438251E162F1C00310523 /* Sources */,
+				2B2438261E162F1C00310523 /* Frameworks */,
+				2B2438271E162F1C00310523 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2B24382B1E162F1C00310523 /* PBXTargetDependency */,
+			);
+			name = "iOS-swipe-gestureUITests";
+			productName = "iOS-swipe-gestureUITests";
+			productReference = 2B2438291E162F1C00310523 /* iOS-swipe-gestureUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2B2438021E162F1C00310523 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = com.devkau;
+				TargetAttributes = {
+					2B2438091E162F1C00310523 = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = HDA982VNA5;
+						ProvisioningStyle = Automatic;
+					};
+					2B24381D1E162F1C00310523 = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = HDA982VNA5;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2B2438091E162F1C00310523;
+					};
+					2B2438281E162F1C00310523 = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = HDA982VNA5;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2B2438091E162F1C00310523;
+					};
+				};
+			};
+			buildConfigurationList = 2B2438051E162F1C00310523 /* Build configuration list for PBXProject "iOS-swipe-gesture" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2B2438011E162F1C00310523;
+			productRefGroup = 2B24380B1E162F1C00310523 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2B2438091E162F1C00310523 /* iOS-swipe-gesture */,
+				2B24381D1E162F1C00310523 /* iOS-swipe-gestureTests */,
+				2B2438281E162F1C00310523 /* iOS-swipe-gestureUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2B2438081E162F1C00310523 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B2438181E162F1C00310523 /* LaunchScreen.storyboard in Resources */,
+				2B2438151E162F1C00310523 /* Assets.xcassets in Resources */,
+				2B2438131E162F1C00310523 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B24381C1E162F1C00310523 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B2438271E162F1C00310523 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2B2438061E162F1C00310523 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B2438101E162F1C00310523 /* ViewController.swift in Sources */,
+				2B24380E1E162F1C00310523 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B24381A1E162F1C00310523 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B2438231E162F1C00310523 /* iOS_swipe_gestureTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B2438251E162F1C00310523 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B24382E1E162F1C00310523 /* iOS_swipe_gestureUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2B2438201E162F1C00310523 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2B2438091E162F1C00310523 /* iOS-swipe-gesture */;
+			targetProxy = 2B24381F1E162F1C00310523 /* PBXContainerItemProxy */;
+		};
+		2B24382B1E162F1C00310523 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2B2438091E162F1C00310523 /* iOS-swipe-gesture */;
+			targetProxy = 2B24382A1E162F1C00310523 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2B2438111E162F1C00310523 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2B2438121E162F1C00310523 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2B2438161E162F1C00310523 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2B2438171E162F1C00310523 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2B2438301E162F1C00310523 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2B2438311E162F1C00310523 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2B2438331E162F1C00310523 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = HDA982VNA5;
+				INFOPLIST_FILE = "iOS-swipe-gesture/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.devkau.iOS-swipe-gesture";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		2B2438341E162F1C00310523 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = HDA982VNA5;
+				INFOPLIST_FILE = "iOS-swipe-gesture/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.devkau.iOS-swipe-gesture";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		2B2438361E162F1C00310523 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = HDA982VNA5;
+				INFOPLIST_FILE = "iOS-swipe-gestureTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.devkau.iOS-swipe-gestureTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOS-swipe-gesture.app/iOS-swipe-gesture";
+			};
+			name = Debug;
+		};
+		2B2438371E162F1C00310523 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = HDA982VNA5;
+				INFOPLIST_FILE = "iOS-swipe-gestureTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.devkau.iOS-swipe-gestureTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOS-swipe-gesture.app/iOS-swipe-gesture";
+			};
+			name = Release;
+		};
+		2B2438391E162F1C00310523 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = HDA982VNA5;
+				INFOPLIST_FILE = "iOS-swipe-gestureUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.devkau.iOS-swipe-gestureUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "iOS-swipe-gesture";
+			};
+			name = Debug;
+		};
+		2B24383A1E162F1C00310523 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = HDA982VNA5;
+				INFOPLIST_FILE = "iOS-swipe-gestureUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.devkau.iOS-swipe-gestureUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "iOS-swipe-gesture";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2B2438051E162F1C00310523 /* Build configuration list for PBXProject "iOS-swipe-gesture" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B2438301E162F1C00310523 /* Debug */,
+				2B2438311E162F1C00310523 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2B2438321E162F1C00310523 /* Build configuration list for PBXNativeTarget "iOS-swipe-gesture" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B2438331E162F1C00310523 /* Debug */,
+				2B2438341E162F1C00310523 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2B2438351E162F1C00310523 /* Build configuration list for PBXNativeTarget "iOS-swipe-gestureTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B2438361E162F1C00310523 /* Debug */,
+				2B2438371E162F1C00310523 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2B2438381E162F1C00310523 /* Build configuration list for PBXNativeTarget "iOS-swipe-gestureUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B2438391E162F1C00310523 /* Debug */,
+				2B24383A1E162F1C00310523 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2B2438021E162F1C00310523 /* Project object */;
+}
